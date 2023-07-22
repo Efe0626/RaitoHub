@@ -4,5 +4,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main
 elseif game.PlaceId == 12604352060 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/ArcaneOdyssey"))()
 else
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/ProjectSlayers"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mrdoge2313/Charlie/main/RaitoHub%20Project%20Slayer"))()
 end
