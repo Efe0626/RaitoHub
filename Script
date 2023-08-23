@@ -1,6 +1,10 @@
 print(game.PlaceId)
 if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7449423635 then
+if not game:GetService("UserInputService").TouchEnabled and not game:GetService("UserInputService").KeyboardEnabled == false then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/BloxFruitsX"))()
+else
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/BloxFruits"))()
+end
 elseif game.PlaceId == 11545598432 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SaltyHB/Poggers/main/ASFX"))()
 else
