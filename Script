@@ -3,6 +3,8 @@ if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/BloxFruits"))()
 elseif game.PlaceId == 11545598432 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/SaltyHB/Poggers/main/ASFX"))()
+elseif game.PlaceId == 8396586868 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/AOPG"))()
 else
 loadstring(game:HttpGet("https://raw.githubusercontent.com/mrdoge2313/Charlie/main/RaitoHub%20Project%20Slayer"))()
 end
