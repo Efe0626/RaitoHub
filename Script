@@ -1,6 +1,15 @@
 print(game.PlaceId)
 if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7449423635 then
+local executor = identifyexecutor() 
+if executor == "Arceus X" or "Codex" then 
+execution = 0
+repeat wait(1)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/BloxFruits"))()
+    execution = execution + 1
+until execution == 2
+else
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/BloxFruits"))()
+end
 else
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/BeeSwarmSimulator"))()
 end
