@@ -4,8 +4,8 @@ local executor = identifyexecutor()
 if executor == "Arceus X" or "Codex" then 
 execution = 0
 repeat wait(1)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/BloxFruits"))()
     execution = execution + 1
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/BloxFruits"))()
 until execution == 2
 else
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/BloxFruits"))()
