@@ -3,7 +3,7 @@ if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7
 local executor = identifyexecutor() 
 if executor == "Arceus X" or "Codex" then 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/BloxFruits"))()
-wait(1)
+wait(0.5)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/BloxFruits"))()
 else
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/BloxFruits"))()
