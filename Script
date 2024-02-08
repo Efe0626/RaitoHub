@@ -2,9 +2,13 @@ print(game.PlaceId)
 if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7449423635 then
 local executor = identifyexecutor() 
 if executor == "Arceus X" or "Codex" and not "Fluxus Android" and not "Fluxus" and not "Delta" and not "Vega X" then 
+if not _G.Version == "Chest Farm" and not _G.Version == "Fruit Farm" then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/BloxFruits"))()
 wait(0.5)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/BloxFruits"))()
+else
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/BloxFruits"))()
+end
 else
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/BloxFruits"))()
 end
