@@ -7,6 +7,10 @@ spawn(function()
                         if v.Name == "Stellar Nebula" or v.Name == "Event Horizon" or string.find(v.Name, "Cube") then
                             if _G.Mode == "Bring" then
                                 v.Hitbox.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+                                wait(.1)
+                                game:service('VirtualInputManager'):SendKeyEvent(true, "Space", false, game)
+                                wait(.1)
+                                game:service('VirtualInputManager'):SendKeyEvent(false, "Space", false, game)
                             else
                                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Hitbox.CFrame
                             end
