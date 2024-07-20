@@ -1,0 +1,19 @@
+spawn(function()
+    pcall(function()
+        while wait(1) do
+            for i,v in pairs(game.Workspace:GetChildren()) do
+                pcall(function()
+                    if _G.FarmCube == true then
+                        if v.Name == "Stellar Nebula" or v.Name == "Event Horizon" or string.find(v.Name, "Cube") then
+                            if _G.Mode == "Bring" then
+                                v.Hitbox.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+                            else
+                                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Hitbox.CFrame
+                            end
+                        end
+                    end
+                end)
+            end
+        end
+    end)
+end)
